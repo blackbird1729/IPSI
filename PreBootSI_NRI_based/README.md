@@ -29,7 +29,8 @@ python pipeline.py \
     --SI-prior-hidden_dim 256 \
     --SI-prior-lr 0.0005 \
     --b-simulation-type springs \
-    --b-suffix 15r1
+    --b-suffix 15r1 \
+    --b-network-type 'vascular_networks'
 
 
 
