@@ -28,5 +28,6 @@ python pipeline.py \
     --SI-joint-epochs 250 \
     --SI-prior-hidden_dim 256 \
     --SI-prior-lr 0.0005 \
+    --b-network-type 'gene_regulatory_networks' \           
     --b-simulation-type springs \
     --b-suffix 15r1
