@@ -109,7 +109,7 @@ parser.add_argument('--b-suffix', type=str, default='15r1',
 parser.add_argument('--b-walltime', action='store_true', default=True,
                     help='Set wll time for benchmark training and testing. (Max time = 2 days)')
 
-#for PreBoot-SI:
+#for IPSI-SI:
 parser.add_argument('--baseline-model-load-folder', type=str, default= 'baseline_model',
                         help='训练好的模型目录，包含 encoder.pt')
 parser.add_argument('--pseudo-label-save-folder', type=str, default='pseudo_data',
@@ -560,4 +560,5 @@ for _ in range(1):
     test_SIjoint(encoder_SI_joint,decoder_SI_joint,emb_SI_prior,encoder_SI_prior,rel_rec,rel_send,test_loader,encoder_file,decoder_file,save_folder,log,args)
     if log is not None:
         print(save_folder)
+
         log.close()
