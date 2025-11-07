@@ -25,9 +25,7 @@ Example command:
 ```bash
 python pipeline.py \
     --SI-prior-epochs 100 \
-    --SI-joint-epochs 250 \
-    --SI-prior-hidden_dim 256 \
-    --SI-prior-lr 0.0005 \
+    --SI-joint-epochs 500 \
     --b-network-type 'gene_regulatory_networks' \           
     --b-simulation-type springs \
     --b-suffix 15r1
