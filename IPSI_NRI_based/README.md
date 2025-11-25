@@ -19,7 +19,7 @@ Once downloaded, place the datasets in the appropriate data directory within the
 ---
 
 ### 3. Run the pipeline
-After adding your model and downloading the datasets, execute the main **pipeline file** in the root directory of the DoSI project to start the full structural inference process.
+After adding your model and downloading the datasets, execute the main **pipeline.py** to start the full structural inference process.
 
 Example command:
 ```bash
