@@ -8,7 +8,7 @@ This folder contains a custom model implementation designed to work within the *
 ## 📁 Usage Instructions
 
 ### 1. Copy the folder into the DoSI repository
-Copy this entire folder into the following path within the DoSI benchmark repository: Benchmarking-Structural-Inference-Methods-for-Interacting-Dynamical-Systems-main\src\models\PreBootSI_NRI_based
+Copy this entire folder into the following path within the DoSI benchmark repository: Benchmarking-Structural-Inference-Methods-for-Interacting-Dynamical-Systems-main\src\models\IPSI_NRI_based
 
 ---
 
