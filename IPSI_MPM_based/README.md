@@ -8,7 +8,7 @@ This folder contains a custom model implementation designed to work within the *
 ## 📁 Usage Instructions
 
 ### 1. Copy the folder into the DoSI repository
-Copy this entire folder into the following path within the DoSI benchmark repository: Benchmarking-Structural-Inference-Methods-for-Interacting-Dynamical-Systems-main\src\models\PreBootSI_NRI_based
+Copy this entire folder into the following path within the DoSI benchmark repository: Benchmarking-Structural-Inference-Methods-for-Interacting-Dynamical-Systems-main\src\models\IPSI_MPM_based
 
 ---
 
@@ -19,7 +19,7 @@ Once downloaded, place the datasets in the appropriate data directory within the
 ---
 
 ### 3. Run the pipeline
-After adding your model and downloading the datasets, execute the main **pipeline file** in the root directory of the DoSI project to start the full structural inference process.
+After adding your model and downloading the datasets, execute the main **run.py** to start the full structural inference process.
 
 Example command:
 ```bash
